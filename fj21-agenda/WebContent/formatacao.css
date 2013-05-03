@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #dddddd;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: sans-serif, serif, monospace;
+	font-size: 14px;
+	font-style: italic;
+}
+
+th {
+	background-color: #cccccc;
+}
+
+table, td {
+	border: 1px solid blue;
+}

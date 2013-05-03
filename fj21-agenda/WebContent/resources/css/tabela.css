@@ -1,0 +1,115 @@
+.display table {
+        border: 1px solid #666;
+        width: 100%;
+        margin: 20px 0 20px 0 !important;
+}
+
+.display th, .display td {
+        padding: 2px 4px 2px 4px !important;
+        text-align: left;
+        vertical-align: top;
+}
+
+.display thead tr {
+        background-color: #fc0;
+}
+
+.display th.sorted {    
+        background-color: orange;
+}
+
+.display th a, .display th a:visited {
+        color: black;
+}
+
+.display th a:hover {
+        text-decoration: underline;
+        color: black;
+}
+
+.display th.sorted a, .display th.sortable a {
+        background-position: right;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+}
+
+.display th.sortable a {
+        background-image: url(arrow_off.png);
+}
+
+.display th.order1 a {
+        background-image: url(arrow_down.png);
+}
+
+.display th.order2 a {
+        background-image: url(arrow_up.png);
+}
+
+.display tr.odd {
+        background-color: #fff
+}
+
+.display tr.tableRowEven, .display tr.even {
+        background-color: #fea
+}
+
+.display div.exportlinks {
+        background-color: #eee;
+        border: 1px dotted #999;
+        padding: 2px 4px 2px 4px;
+        margin: 2px 0 10px 0;
+        width: 95%;
+}
+
+.display span.export {
+        padding: 0 4px 1px 20px;
+        display: inline;
+        display: inline-block;
+        cursor: pointer;
+}
+
+.display span.excel {
+        background-image: url(ico_file_excel.png);
+        background-repeat: no-repeat;
+}
+
+.display span.csv {
+        background-image: url(ico_file_csv.png);
+        background-repeat: no-repeat;
+}
+
+.display span.xml {
+        background-image: url(ico_file_xml.png);
+        background-repeat: no-repeat;
+}
+
+.display span.pdf {
+        background-image: url(ico_file_pdf.png);
+        background-repeat: no-repeat;
+}
+
+.display span.rtf {
+        background-image: url(ico_file_rtf.png);
+        background-repeat: no-repeat;
+}
+
+.display span.pagebanner {
+        background-color: #eee;
+        border: 1px dotted #999;
+        padding: 2px 4px 2px 4px;
+        width: 95%;
+        margin-top: 10px;
+        display: block;
+        border-bottom: none;
+}
+
+.display span.pagelinks {
+        background-color: #eee;
+        border: 1px dotted #999;
+        padding: 2px 4px 2px 4px;
+        width: 95%;
+        display: block;
+        border-top: none;
+        margin-bottom: -5px;
+}
